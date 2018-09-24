@@ -68,35 +68,31 @@ h1{
 }
 .second-column {
   display: flex;
-  max-width: 15%;
-  max-height: 80%;
+
   font-size: .9rem;
   margin-left: 9.89%;
   border-radius: 4px;
   background-color: hotpink;
   padding-bottom: 4.75%;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-content: center;
+
+
 }
 
-fieldset{
-  border-color: #dd4c95;
-  border-radius: 4px;
-  width: 100%;
-}
+
 
 .second-column h3{
   font-weight: bolder;
   text-align: center;
   font-size: 2rem;
 }
-.second-column{
-display: flex;
-flex-direction: column;
-justify-content:flex-start;
-align-content: center;
 
-min-width: 45%;
-
-
+fieldset{
+  border-color: #dd4c95;
+  border-radius: 4px;
+  width: 100%;
 }
 
 input[type=text]{
@@ -112,12 +108,12 @@ input[type=text]{
 }
 
 input[type=text]:focus {
-    border: 3px solid #dd4c95;
+    border: 1px solid #dd4c95;
     border-radius: 4px;
 }
 
 textarea:focus{
-  border: 3px solid #dd4c95;
+  border: 1px solid #dd4c95;
   border-radius: 4px;
 }
 
