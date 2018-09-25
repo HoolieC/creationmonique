@@ -192,7 +192,7 @@ textarea{
 
   .second-column{
   width: 100%;
-  height: 1100px;
+  height: 2000px;
   margin-top: 430px;
   }
   .second-column h3{
@@ -201,14 +201,18 @@ textarea{
   input[type=text]{
     font-size: 1.125rem;
     width: auto;
+    height: auto;
   }
   input[type=submit]{
       padding-bottom:10px;
+      width: auto;
+      height: auto;
     }
 
   textarea{
     font-size: 1.125rem;
     width: auto;
+    height: auto;
   }
   .second-column label{
     font-size: 1.125rem;
