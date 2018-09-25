@@ -169,7 +169,7 @@ textarea{
   img{
     width:200px;
     height:150px;
-    padding-top: 400px;
+    padding-top: 70px;
   }
 
   h1{
@@ -193,8 +193,8 @@ textarea{
 
   .second-column{
   width: 100%;
-  height: 2000px;
-  margin-top: 430px;
+  height: 450px;
+  margin-top: 50px;
   }
   .second-column h3{
     font-size: 1.3rem;
@@ -203,6 +203,7 @@ textarea{
     font-size: 1.125rem;
     width: auto;
     height: auto;
+    padding: 2px;
   }
   input[type=submit]{
       padding-bottom:10px;
@@ -213,7 +214,7 @@ textarea{
   textarea{
     font-size: 1.125rem;
     width: auto;
-    height: auto;
+    padding: 50px;
   }
   .second-column label{
     font-size: 1.125rem;
