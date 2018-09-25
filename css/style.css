@@ -169,6 +169,9 @@ textarea{
     display: none;
   }
   .first-column{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
     width: 100%;
   }
   img{
