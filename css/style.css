@@ -154,7 +154,7 @@ textarea{
     }
 
   body{
-    overflow: hidden;
+    overflow: scroll;
     background-size: cover;
   }
   h1{
@@ -177,7 +177,8 @@ textarea{
     margin-top:20px;
   }
   .second-column{
-    width: 48%;
+  width: 300px;
+  height: 768.8px;
   }
   .second-column h3{
     font-size: 1.3rem;
